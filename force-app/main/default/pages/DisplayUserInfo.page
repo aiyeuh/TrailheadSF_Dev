@@ -1,0 +1,7 @@
+<apex:page showHeader="false">
+    <apex:pageBlock title="Preview Profile Login">
+        <apex:pageBlockSection>
+            <p>User Login First Name is {!$User.FirstName} {! $User.LastName}</p>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

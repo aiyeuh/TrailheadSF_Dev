@@ -1,0 +1,5 @@
+<apex:page showHeader="false">
+    <apex:pageBlock title="Showing Image With Static Resource">
+        <apex:image url="{!URLFOR($Resource.vfimagetest, 'cats/kitten1.jpg')}"/>
+    </apex:pageBlock>
+</apex:page>
